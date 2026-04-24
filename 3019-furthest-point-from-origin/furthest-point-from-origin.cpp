@@ -4,7 +4,7 @@ public:
    
         int l=0;
         int r=0;
-       for(auto it : moves){
+       for(char it : moves){
         if(it=='L')l++;
 
         else if(it=='R')r++;
